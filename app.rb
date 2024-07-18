@@ -4,11 +4,13 @@ require_relative 'models/menu'
 
 class App
   def call
-    menu = Menu.new
-    menu.show_options
+    loop do
+      menu = Menu.new
+      menu.show_options
 
-    calculator = Calculator.new(menu.select_option)
-    calculator.call
+      calculator = Calculator.new(menu.select_option)
+      calculator.call
+    end
   end
 end
 

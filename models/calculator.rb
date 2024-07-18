@@ -41,6 +41,3 @@ class Calculator < Base
     puts "O resultado da sua conta de #{@number_1} #{@operator} #{@number_2} é: #{@result}"
   end
 end
-
-
-
