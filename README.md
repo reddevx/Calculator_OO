@@ -30,7 +30,7 @@ Para instalar e rodar este projeto localmente, siga os passos abaixo:
 1. Clone o repositório:
     ```sh
     git clone https://github.com/reddevx/Calculator_OO
-    cd 'nome-do-projeto'
+    cd Calculator_OO
     ```
 
 ## Uso
